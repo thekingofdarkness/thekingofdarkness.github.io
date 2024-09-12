@@ -8,32 +8,50 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <header class="text-center py-5">
-    <h1>Welcome to My Task Manager Portfolio Project</h1>
+  <header class="text-center py-5 bg-primary text-white">
+    <img src="cover-image.png" alt="Cover Image" class="img-fluid mb-3" style="max-height: 300px; object-fit: cover;">
+    <h1>My Task Manager Portfolio Project</h1>
     <p>Your one-stop solution for organizing and managing tasks efficiently!</p>
+    <nav>
+      <a href="#features" class="btn btn-light mx-2">Features</a>
+      <a href="#about" class="btn btn-light mx-2">About</a>
+      <a href="http://alphabetrium.tech" target="_blank" class="btn btn-warning mx-2">Visit Deployed App</a>
+    </nav>
   </header>
 
-  <section class="container my-5">
-    <h2>About the Project</h2>
-    <p>This project is a Task Manager built with Laravel and Blade, featuring full CRUD functionality to help users create, complete, and manage their tasks effortlessly.</p>
-    <p>It was created as part of my journey towards obtaining a Software Engineering degree from ALX Africa.</p>
-  </section>
-
-  <section class="container my-5">
-    <h2>About Me</h2>
-    <p>Hi, I’m <strong>Abderrahman Bouichou</strong>, a passionate web developer. I specialize in full-stack development, focusing on creating secure and efficient applications using technologies like Laravel, React, and more.</p>
-  </section>
-
-  <section class="container my-5">
-    <h2>Explore the Project</h2>
+  <section id="features" class="container my-5">
+    <h2>Key Features</h2>
     <div class="row">
-      <div class="col-md-6">
-        <a href="https://your-deployed-app-url.com" target="_blank" class="btn btn-primary w-100">Visit Deployed App</a>
+      <div class="col-md-4">
+        <img src="feat1.png" alt="Feature 1" class="img-fluid mb-3">
+        <h3>Add tasks easly</h3>
+        <p>You can add tasks without any confusion</p>
       </div>
-      <div class="col-md-6">
-        <a href="https://github.com/thekingofdarkness/legaldocs" target="_blank" class="btn btn-secondary w-100">View on GitHub</a>
+      <div class="col-md-4">
+        <img src="feat2.png" alt="Feature 2" class="img-fluid mb-3">
+        <h3>Set tasks as Completed</h3>
+        <p>You can keep track of tasks you completed</p>
+      </div>
+      <div class="col-md-4">
+        <img src="feat3.png" alt="Feature 3" class="img-fluid mb-3">
+        <h3>Delete tasks</h3>
+        <p>you can also delete tasks you no longer need.</p>
       </div>
     </div>
+  </section>
+
+  <section id="about" class="container my-5">
+    <h2>About the Project</h2>
+    <p>This project is a Task Manager built with Laravel and Blade, featuring full CRUD functionality to help users create, complete, and manage their tasks effortlessly.</p>
+    <p>The inspiration behind this project came from my need for an efficient task management tool during my Software Engineering studies at ALX Africa. I wanted to build something practical and useful, not just for myself, but for others who might face similar challenges in task management.</p>
+    <p>It was created as part of my journey towards obtaining a Software Engineering degree from ALX Africa.</p>
+    <p>Links to team members:</p>
+    <ul>
+      <li><a href="https://www.linkedin.com/in/abderrahmanbouichou/" target="_blank">LinkedIn Profile</a></li>
+      <li><a href="https://github.com/thekingofdarkness" target="_blank">GitHub Profile</a></li>
+      <li><a href="https://x.com/TalebPress" target="_blank">Twitter Profile</a></li>
+    </ul>
+    <p>Check out the project's GitHub repository: <a href="https://github.com/thekingofdarkness/legaldocs" target="_blank">View on GitHub</a></p>
   </section>
 
   <footer class="text-center py-4">
@@ -41,4 +59,3 @@
   </footer>
 </body>
 </html>
-
